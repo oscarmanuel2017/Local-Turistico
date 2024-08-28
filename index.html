@@ -3,13 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Local Turistico</title>
+    <title>Local Turístico - Busan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
 </head>
 <body>
-    <div>
-        <h1>Conozca su Proximo Viaje</h1>
-        <h2>Conozca Busan</h2>
+    <div class="contenedor">
+        <!-- Título Principal -->
+        <header>
+            <h1>Conozca su Próximo Viaje:</h1>
+            <h2>Conozca Busan</h2>
+        </header>
+        
+        <!-- Imagen Principal -->
+        <figure>
+            <img src="assets/buzan.png" alt="Imagen del paisaje de Busan" class="mi-imagen">
+            <figcaption>Busan, Corea del Sur</figcaption>
+        </figure>
+
+        <!-- Descripción del destino -->
+        <section class="descripcion">
+            <p class="justificado">
+                Busan es la segunda ciudad más grande de Corea. Los turistas suelen acudir a esta región para practicar senderismo y visitar los recónditos templos budistas escondidos en las montañas de la región. El Templo de Beomeosa, fundado en el año 678 d.C., es uno de los principales atractivos.
+            </p>
+        </section>
+        
+        <!-- Sección de Historia -->
+        <section id="historia">
+            <hr class="divisor"> <!-- Divisor visual -->
+            <h3>Para los Amantes de la Historia</h3>
+            <h4>Descubre 3 destinos imperdibles en Busan</h4>
+
+            <p class="justificado">
+                Una buena forma de empezar tu visita a esta enorme ciudad es acercarte con el bus 181 desde el barrio de Haeundae o taxi al Templo Haedong Yonggungsa, ubicado lejos del centro, en un acantilado frente al mar. El ruido de las olas rompiendo contra las rocas del acantilado y los cantos budistas lo convierten en uno de los templos budistas más bonitos de Corea del Sur.
+            </p>
+            
+            <!-- Lista de Tarjetas de Destinos -->
+            <div class="card-list">
+                <img src="assets/templo.png" alt="Imagen del Templo Haedong Yonggungsa" class="mi-imagen">
+                <!-- Tarjeta 1 -->                                       
+                    <div class="content-card">
+                        <span class="titulo-destino">1.Templo Haedong Yonggungsa</span> <!-- Título de la tarjeta -->
+                        <p class="justificado">Este templo fue fundado en el año 1376, durante el reinado de Gongmin, por el sacerdote Naonghwasang, el asesor del rey. Forma parte de uno de los 3 mejores sitios budistas de Corea, y presenta una perfecta combinación del mar, la estatua del dragón y las piezas budistas. Caminando aproximadamente 2 min desde el estacionamiento hasta el templo, podrá observar las estatuas de los 12 signos zodiacales de la filosofía oriental, entre otras obras artísticas relacionadas al budismo. Pasando por la caverna Yongmun Seokgul, arribará a los 108 escalones de piedra, y bajando por ellos podrá apreciar el maravilloso paisaje presentado por el mar azul, los faros de piedra, etc., que lo hará sentir como ingresar al castillo del dragón. Avanzando un poco más, podrá llegar a la roca Ilchulam, que es la famosa área de salida del sol.</p> 
+                    </div> 
+                    <img src="assets/templo2.png" alt="Imagen del Templo Haedong Yonggungsa" class="mi-imagen">
+                    <!-- Tarjeta 2 -->                                       
+                    <div class="content-card">
+                        <span class="titulo-destino">2.Templo Beomeo-sa</span> <!-- Título de la tarjeta -->
+                        <p class="justificado">Beomeosa es un templo budista de la Orden de Jogye en Cheongnyong-dong, Geumjeong-gu, Busan, Corea del Sur. Construido en las pendientes de Geumjeongsan, es uno de los templos urbanos más conocidos del país.</p> 
+                    </div>
+                    <img src="assets/beom.png" alt="Imagen del Templo Haedong Yonggungsa" class="mi-imagen">
+                    <!-- Tarjeta 3 -->                                       
+                    <div class="content-card">
+                        <span class="titulo-destino">Parque Yongdusan</span> <!-- Título de la tarjeta -->
+                        <p class="justificado">Caminando, aproximadamente, 10 minutos en dirección hacia Yongdusan desde la Estación de Nampodong del metro de Busan, o desde el área de cines de Gwangbok-dong, podrá llegar al Parque Yongdusan, el Patrimonio Regional Nº 25. Desde la antigüedad, en la zona del monte Yongdusan abundaban los pinos, motivo por el que tomó el nombre de Songhyeonsan (song, en caracteres chinos, significa “pino”). Pero luego, como la imagen de la montaña se parecía a la cabeza de un dragón asomándose desde el mar hacia la tierra, terminó recibiendo el nombre de Yongdusan (yong significa “dragón” en coreano). El parque fue ubicado en la cima del monte Songhyeonsan, pero hasta antes de la apertura del puerto los japoneses le daban el nombre de Jungsan (jung significa “mediano”) a esta montaña , y Sosan (so significa “pequeño”) al monte Yongmisan. Después, en el año 1898, los monjes japoneses construyeron un gran templo sintoísta, llamado “templo sintoísta Yongdusan”, y de ahí proviene su nombre. En el parque se encuentran: la estatua del general Yi Sun-shin, la torre conmemorativa de la Revolución del 19 de abril y un reloj floral, entre otras obras artísticas instaladas para conmemorar y homenajear a las figuras históricas del país. En particular, en la Torre de Busan, que presenta una altura de 120 m, podrá apreciar todo el paisaje de la ciudad de Busan.</p> 
+                    </div>                                    
+                    <!-- Aquí podés agregar más tarjetas similares -->
+                    <hr class="card-divisor"> <!-- Divisor visual -->
+            
+                    <p class="justificado">Planifica tu día perfecto y visita los mejores lugares de Busan
+                        Disfruta de la privacidad de tu propio vehículo y conductor
+                        Diseña tu propio itinerario y explora la ciudad de la mano de un guía profesional.</p> <!-- Descripción de la tarjeta -->
+                            
+            </div>
+        </section>
     </div>
-    
 </body>
 </html>

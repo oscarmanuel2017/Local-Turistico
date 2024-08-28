@@ -1,0 +1,127 @@
+h1 {
+    line-height: 100%;
+    font-size: 16px;
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+.contenedor {
+  text-align: center; /* Centra el texto y la imagen horizontalmente */
+    
+  padding: 20px; /* Espacio alrededor del contenido */
+}
+.mi-imagen {
+  max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-top: 10px; /* Ajusta el margen superior si es necesario */
+  margin-bottom: 20px; /* Espacio entre la imagen y el siguiente contenido (si hay) */
+  }
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {    
+  margin-bottom: 10px; /* Espacio entre el h1 y el h2 */
+}
+
+h2 {   
+margin-bottom: 20px; /* Espacio entre el h2 y la imagen */
+text-align: left;
+}
+
+
+/* Estilos para la sección con ID historia */
+
+#historia {
+    padding: 20px; /* Espacio interno alrededor del contenido de la sección */
+    background-color: #f4f4f4; /* Color de fondo para la sección, ajusta según tu diseño */
+    margin: 20px 0; /* Espacio exterior arriba y abajo de la sección */
+}
+#historia h3 {
+    color:red; /* Color del texto del h3 */
+    font-size: 1.5em; /* Tamaño del texto del h3, ajusta según necesites */
+    margin-bottom: 15px; /* Espacio debajo del h3 */
+}
+
+#historia p {
+    font-size: 1em; /* Tamaño del texto del párrafo */
+    line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+    color: #666; /* Color del texto del párrafo */
+    margin: 0; /* Elimina márgenes por defecto del párrafo */
+    padding: 0;
+}
+
+/* Estilo para la lista */
+
+/* Estilo para el contenido de las tarjetas */
+.content-card {
+    display: flex;
+    flex-direction: column; /* Alinea el contenido en columna */
+}
+
+/* Estilo para el título con numeración */
+
+.content-card h5 {
+margin: 0 0 10px 0; /* Margen inferior para separar del párrafo */
+    
+font-size: 18px; /* Tamaño de fuente para el título */
+    
+color: #333; /* Color del título */
+    
+
+text-align: left; /* Alineación a la izquierda */
+    
+position: relative; /* Posición relativa para el pseudo-elemento */
+}
+
+/* Estilo para el párrafo centrado */
+.content-card p {
+    margin: 0; /* Quita el margen del párrafo */
+    font-size: 14px; /* Tamaño de fuente del párrafo */
+    color: #666; /* Color del texto del párrafo */
+text-align: center; /* Centra el texto del párrafo */
+}  
+
+.content-card h5::before {
+    
+    content: counter(card) ". "; /* Añade la numeración */
+        
+    
+
+    counter-increment: card; /* Incrementa el contador */
+        
+
+    position: absolute; /* Posiciona el número */
+        
+    left: -30px; /* Ajusta la posición del número */
+        font-weight: bold; /* Negrita para la numeración */
+    }
+
+    .titulo-destino {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #333;
+        display: block;
+        margin-bottom: 5px;
+    }
+    /* Estilo para justificar los párrafos con clase 'justificado' */
+.justificado {
+
+    text-align: justify; /* Justifica el texto */
+    text-justify: inter-word; /* Mejora el espaciado entre palabras */
+    letter-spacing: normal; /* Ajusta el espaciado entre letras a su valor normal */
+    word-spacing: normal; /* Ajusta el espaciado entre palabras a su valor normal */
+    font-size: 16px; /* Tamaño de la fuente para mejorar la legibilidad */
+    line-height: 1.5; /* Espacio entre líneas para mejorar la legibilidad */
+
+}
+    
+
+
+
+    
